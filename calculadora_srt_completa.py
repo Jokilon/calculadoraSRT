@@ -10,7 +10,7 @@ st.markdown("""
 Calculadora simplificada para estimar indemnizaciones por contingencias laborales: ILP, gran invalidez y fallecimiento.
 """)
 
-locale.setlocale(locale.LC_ALL, 'es_AR.UTF-8')  # Para formato argentino si el sistema lo soporta
+# locale.setlocale(locale.LC_ALL, 'es_AR.UTF-8')  # Removido para evitar error en Streamlit Cloud  # Para formato argentino si el sistema lo soporta
 
 # --- Entradas comunes ---
 tipo = st.selectbox("Tipo de contingencia:", [
